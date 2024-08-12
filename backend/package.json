@@ -10,7 +10,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@neondatabase/serverless": "^0.9.4",
+    "@prisma/adapter-neon": "^5.18.0",
+    "@prisma/client": "^5.18.0",
     "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0"
   }
 }
